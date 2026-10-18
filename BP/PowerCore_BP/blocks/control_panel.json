@@ -1,0 +1,51 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "powercore:control_panel",
+      "menu_category": {
+        "category": "construction",
+        "group": "powercore:itemGroup.name.grid",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:map_color": "#1E2832",
+      "minecraft:geometry": "geometry.powercore.control_panel",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "powercore_control_panel",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0,
+          -4.0
+        ],
+        "size": [
+          16,
+          14,
+          8
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0,
+          -4.0
+        ],
+        "size": [
+          16,
+          14,
+          8
+        ]
+      },
+      "powercore:control_panel": {}
+    }
+  }
+}

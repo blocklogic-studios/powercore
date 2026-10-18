@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "powercore",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "powercore_multimeter": {
+      "textures": "textures/items/multimeter"
+    },
+    "powercore_fuse": {
+      "textures": "textures/items/fuse"
+    },
+    "powercore_utility_bill": {
+      "textures": "textures/items/utility_bill"
+    }
+  }
+}

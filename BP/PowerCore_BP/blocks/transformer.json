@@ -1,0 +1,51 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "powercore:transformer",
+      "menu_category": {
+        "category": "construction",
+        "group": "powercore:itemGroup.name.grid",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:map_color": "#5A4628",
+      "minecraft:geometry": "geometry.powercore.transformer",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "powercore_transformer",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -6.0,
+          0,
+          -6.0
+        ],
+        "size": [
+          12,
+          16,
+          12
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -6.0,
+          0,
+          -6.0
+        ],
+        "size": [
+          12,
+          16,
+          12
+        ]
+      },
+      "powercore:transformer": {}
+    }
+  }
+}

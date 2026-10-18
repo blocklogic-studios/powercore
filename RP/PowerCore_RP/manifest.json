@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "PowerCore Resources",
+    "description": "Textures and models for PowerCore grid equipment.",
+    "uuid": "3008e29b-5127-4527-a674-ef21463745d6",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e5e66b20-d76c-4a1a-b7eb-662d9313ca1b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

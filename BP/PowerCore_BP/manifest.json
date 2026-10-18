@@ -1,0 +1,58 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "PowerCore Behavior",
+    "description": "Power grid \u2014 generation, poles, meters, outages, utility bills. Bridges FinanceCore + CarrierCore.",
+    "uuid": "f5df335e-c444-40fb-80a5-e34306aae172",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "316e80e6-ba94-4d4e-90f0-93227ad518fe",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "e869f604-5475-40a0-8d6b-9786185b0978",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "3008e29b-5127-4527-a674-ef21463745d6",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

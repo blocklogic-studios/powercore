@@ -1,0 +1,51 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "powercore:generator_diesel",
+      "menu_category": {
+        "category": "construction",
+        "group": "powercore:itemGroup.name.grid",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:map_color": "#3C3C46",
+      "minecraft:geometry": "geometry.powercore.generator_diesel",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "powercore_generator_diesel",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          16,
+          14,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          16,
+          14,
+          16
+        ]
+      },
+      "powercore:generator_diesel": {}
+    }
+  }
+}

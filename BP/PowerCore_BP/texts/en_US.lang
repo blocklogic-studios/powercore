@@ -1,0 +1,8 @@
+tile.powercore:generator_diesel.name=Diesel Generator
+tile.powercore:generator_solar.name=Solar Array
+tile.powercore:transformer.name=Transformer
+tile.powercore:power_pole.name=Power Pole
+tile.powercore:substation.name=Substation
+tile.powercore:meter.name=Utility Meter
+tile.powercore:control_panel.name=Grid Control Panel
+itemGroup.name.powercore.grid=PowerCore Grid

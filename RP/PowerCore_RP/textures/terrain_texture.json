@@ -1,0 +1,27 @@
+{
+  "resource_pack_name": "powercore",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "powercore_generator_diesel": {
+      "textures": "textures/blocks/generator_diesel"
+    },
+    "powercore_generator_solar": {
+      "textures": "textures/blocks/generator_solar"
+    },
+    "powercore_transformer": {
+      "textures": "textures/blocks/transformer"
+    },
+    "powercore_power_pole": {
+      "textures": "textures/blocks/power_pole"
+    },
+    "powercore_substation": {
+      "textures": "textures/blocks/substation"
+    },
+    "powercore_meter": {
+      "textures": "textures/blocks/meter"
+    },
+    "powercore_control_panel": {
+      "textures": "textures/blocks/control_panel"
+    }
+  }
+}

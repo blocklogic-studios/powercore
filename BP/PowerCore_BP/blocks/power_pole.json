@@ -1,0 +1,51 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "powercore:power_pole",
+      "menu_category": {
+        "category": "construction",
+        "group": "powercore:itemGroup.name.grid",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:map_color": "#503C28",
+      "minecraft:geometry": "geometry.powercore.power_pole",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "powercore_power_pole",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -2.0,
+          0,
+          -2.0
+        ],
+        "size": [
+          4,
+          24,
+          4
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -2.0,
+          0,
+          -2.0
+        ],
+        "size": [
+          4,
+          24,
+          4
+        ]
+      },
+      "powercore:power_pole": {}
+    }
+  }
+}
